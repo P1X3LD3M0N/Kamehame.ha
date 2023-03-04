@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "Pixel";
+    src: url(Fonts/Pixeboy-z8XGD.ttf);
+}
+
+body {
+    background-image: url('Images/bg.png');
+}
+
+h1 {
+    font-family: 'Pixel',serif;
+    position: fixed;
+    right: 40%;
+    bottom: 50%;
+}
+
+.gokuMain {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: -20px;
+}
+
+#gif {
+    object-fit: cover;
+    display: none;
+    left: 50px;
+}
+
+#png {
+    background: url('Images/gokuIdle.png');
+    background-size: cover;
+    display: inline;
+}
