@@ -3,14 +3,16 @@
     src: url(Fonts/Pixeboy-z8XGD.ttf);
 }
 
-/*body {
-    background-image: url('Images/bg.png');
-}*/
+body {
+    transform-origin: bottom left;    
+    background-position: bottom left;
+}
 
 /* For Desktop View */
 @media screen and (min-width: 1024px) {
     body {
         background-image: url('Images/bg.png');
+        background-position: bottom left;
     }
   }
    
@@ -19,6 +21,7 @@
   and (max-device-width: 1024px) {
     body {
         background-image: url('Images/bg.png');
+        background-position: bottom left;
     }
   }
    
@@ -27,6 +30,7 @@
   and (orientation: portrait) {
     body {
         background-image: url('Images/bg.png');
+        background-position: bottom left;
     }
   }
    
@@ -35,6 +39,7 @@
   and (orientation: landscape) {
     body {
         background-image: url('Images/bg.png');
+        background-position: bottom left;
     }
   }
    
@@ -42,6 +47,7 @@
   @media screen and (max-device-width: 640px) {
     body {
         background-image: url('Images/bg.png');
+        background-position: bottom left;
     }
   }
    
@@ -50,6 +56,7 @@
   and (-webkit-min-device-pixel-ratio: 2) {
     body {
         background-image: url('Images/bg.png');
+        background-position: bottom left;
     }
   }
    
@@ -58,6 +65,7 @@
   and (-webkit-min-device-pixel-ratio: 2) {
     body {
         background-image: url('Images/bg.png');
+        background-position: bottom left;
     }
   }
    
@@ -66,6 +74,7 @@
   and (-webkit-min-device-pixel-ratio: 3) {
     body {
         background-image: url('Images/bg.png');
+        background-position: bottom left;
     }
   }
 
