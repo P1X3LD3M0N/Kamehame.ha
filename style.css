@@ -6,6 +6,8 @@
 body {
     transform-origin: bottom left;    
     background-position: bottom left;
+    background-repeat: inherit;
+    background-attachment: fixed;
 }
 
 /* For Desktop View */
